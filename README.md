@@ -8,7 +8,7 @@ ScalaCheck property tests.
 ## Usage
 
 ```
-sbt new <owner>/typelevel.g8
+sbt new dtrosien/typelevel.g8
 ```
 
 Or from a local checkout:
