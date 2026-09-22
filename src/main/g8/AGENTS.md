@@ -56,6 +56,7 @@ Per that skill: cellar for **external** dependency APIs, Metals `inspect` for ev
 - sbt $sbt_version$ (sbt 2)
 - Typelevel Toolkit $toolkit_version$: cats, cats-effect, fs2, fs2-data-csv, http4s Ember client, circe, decline
 - pureconfig $pureconfig_version$ (`pureconfig-core`; Scala 3 `derives ConfigReader`)
+- fs2-kafka $fs2_kafka_version$ (`org.typelevel`, Kafka consumers/producers as fs2 streams)
 - Tests: weaver $weaver_version$ (`weaver-cats` via `toolkit-test`) and `weaver-scalacheck`
 - sbt plugins: sbt-scalafmt, sbt-scoverage (coverage), sbt-ci-release (publishing, git-based versions)
 

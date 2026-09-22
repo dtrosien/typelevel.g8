@@ -20,6 +20,7 @@ developers := List(
 val toolkitVersion    = "$toolkit_version$"
 val weaverVersion     = "$weaver_version$"
 val pureconfigVersion = "$pureconfig_version$"
+val fs2KafkaVersion   = "$fs2_kafka_version$"
 
 lazy val root = rootProject
   .settings(
@@ -33,6 +34,7 @@ lazy val root = rootProject
     libraryDependencies ++= Seq(
       "org.typelevel"         %% "toolkit"           % toolkitVersion,
       "com.github.pureconfig" %% "pureconfig-core"   % pureconfigVersion,
+      "org.typelevel"         %% "fs2-kafka"         % fs2KafkaVersion,
       "org.typelevel"         %% "toolkit-test"      % toolkitVersion % Test,
       "org.typelevel"         %% "weaver-scalacheck" % weaverVersion  % Test
     ),

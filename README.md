@@ -29,6 +29,7 @@ You will be prompted for:
 | `sbt_version`        | `2.0.9`                                   |
 | `toolkit_version`    | `0.2.0`                                   |
 | `pureconfig_version` | `0.17.10`                                 |
+| `fs2_kafka_version`  | `4.1.0`                                   |
 | `weaver_version`     | `0.12.0`, the version `toolkit-test` uses |
 | `github_user`        | GitHub user or org, for the POM metadata  |
 | `developer_name`     | developer name for the POM                |
@@ -39,7 +40,7 @@ in `src/main/g8/default.properties`.
 
 ## What you get
 
-- `build.sbt` with `toolkit`, `pureconfig-core`, `toolkit-test` and `weaver-scalacheck`,
+- `build.sbt` with `toolkit`, `pureconfig-core`, `fs2-kafka`, `toolkit-test` and `weaver-scalacheck`,
   with `-Wunused:all` and deprecation warnings enabled
 - `AppConfig.scala` + `application.conf`: pureconfig example with a test
 - `Hello.scala`: a minimal `IOApp.Simple` printing the greeting from `AppConfig`
